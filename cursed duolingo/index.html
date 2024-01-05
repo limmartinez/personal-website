@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursed Duolingo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">  
+</head>
+<body> 
+<section class="hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./assets/images/duo-pink.png" class="d-block mx-lg-auto img-fluid" alt="duo-with-knife" height="400" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Duo is watching.</h1>
+            <p class="lead">Don't make Duo angry. Study Spanish today!</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary border-0 btn-learn-spanish btn-lg px-4 me-sm-3"><a class=get-started href="#learning-options">Learn Spanish</a></button>
+                <button onclick="showAlert()" type="button" class="btn btn-outline-secondary btn-lg  px-4">I don't want to</button>    
+                    <script>
+                        function showAlert() {
+                            alert ("Spanish or vanish.");
+                        }
+                    </script>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section class="why">
+  <div class="container my-5">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+      <h1 class="text-body-emphasis">Why Cursed Duolingo?</h1>
+      <p class="lead">
+        "Nothing's a better motivator than fear. If you've never let a cartoon owl threaten you into learning Spanish, maybe now's the time...<br/> When can I see my family again?"
+      </p>
+      <p>- Anonymous, 453 day streak</p>
+    </div>
+  </div>
+</section>
+
+<section class="options">
+  <div class="container py-3" id="learning-options">  
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Get started</h1>
+        <p class="fs-5 text-body-secondary">Pick your learning mode. With Duo, you're either all in or all out. Choose wisely.</p>
+      </div>
+    </header>
+  
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Beginner</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">5 min<small class="text-body-secondary fw-light">/day</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Start with alphabet, how to say hello, and other basic bullsh*t.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-beginner btn-lg btn-outline-primary">First lesson</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Intermediate</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">30 min<small class="text-body-secondary fw-light">/day</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>High school Spanish was so long ago. Brush up now (or else).</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-intermediate btn-lg btn-primary">First lesson</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-advanced mb-4 rounded-3 shadow-sm">
+            <div class="card-header card-header-advanced py-3">
+              <h4 class="my-0 fw-normal">Advanced</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">1 hr<small class="text-body-secondary fw-light">/day</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>You're committed. Duo likes you. Make sure it stays that way.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-advanced btn-primary">First lesson</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</section>
+
+<section class="footer">    
+    <div class="container">
+        <footer class="py-3 my-4">
+          <p class="text-center text-body-secondary">© 2023 Ligianel Martinez. For educational purposes only.</p>
+        </footer>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+

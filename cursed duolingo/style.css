@@ -1,0 +1,32 @@
+.btn-learn-spanish{
+    background-color: #1cb0f6;
+}
+
+.get-started{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-intermediate, .btn-advanced{
+    background-color: #faa918;
+    border-color: #faa918;
+}
+
+.btn-beginner{
+    border-color: #faa918;
+    color: #faa918;
+}
+
+.card-header-advanced{
+    background-color: #faa918;
+}
+
+.card-advanced{
+    border-color: #faa918;
+}
+
+.hero{
+    background-color: #f7c8c9;
+}
+
+
